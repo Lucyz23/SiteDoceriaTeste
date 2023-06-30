@@ -1,0 +1,226 @@
+body, textarea {
+    margin: 0;
+    padding: 0;
+    background-color: #E4EEF1;
+    font-family: 'Actor', sans-serif;
+}
+
+.navbar-container {
+    width: 100%;
+    height: 100px;
+    background-color: #4B93BF;
+    padding:  0 2em;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 107px;
+    margin-top: 5px;
+    left: -584px;
+}
+
+nav {
+    position: relative;
+}
+
+.navbar-items {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    height: 34px;
+    bottom: 110px;
+    color: #E4EEF1;
+    font-size: 28px;
+    line-height: 33.89px;
+    left: 100px;
+    
+}
+
+.navbar-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.winter {
+    margin-right: 520px;
+    line-height: 33.89px;
+    font-weight: 400;
+}
+
+#sessao::after, #text-two::after {
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 100px;
+}
+
+.text-content {
+    position: absolute;
+    left: 730px;
+    padding-right: 30px;
+}
+
+.text-content p {
+    color: #385985;
+    line-height: 24.2px;
+    font-size: 20px;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+.banner{
+    width: 400px;
+    height: 400px;
+    background-image: url(./album/inverno1.png);
+    background-position: center;
+    background-size: cover;
+    float: right; 
+    margin-right: 50px;
+    margin-top: -30px;
+}
+
+#sessao .text-content {
+    left: 15px;
+    width: calc(100% - 500px);
+    
+}
+
+.text-two {
+    background-color: #4B93BF;
+    height: 262px; 
+    width: 100%;
+    position: absolute;
+    margin-top: -110px;
+}
+
+.sessao-descricao p {
+    color: #E4EEF1;
+    line-height: 38.73px;
+    font-size: 20px;
+    margin-left: 655px;
+    margin-top: 120px;
+
+}
+
+.minibanner{
+    width: 343px;
+    height: 266px;
+    top: 201px;
+    background-image: url(./album/gramado.png);
+    background-position: center;
+    background-size: cover;
+    float: left; 
+    margin-left: 140px;
+    margin-top: -100px;
+}
+
+#text-two .text-content {
+    position:absolute;
+    left: 15px;
+    width: calc(100% - 500px);
+    overflow-wrap: break-word;
+    
+}
+
+.banner-galeria {
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    height: 350px;
+    position: relative;
+}
+
+#sessao-galeria {
+    padding-right: 9px;
+    /* margin-top: 150px; */
+}
+
+#img1 {
+    background-image: url(./album/innverno1.png);
+    width: 350px;
+    height: 350px;
+    margin-left: 60px;
+    margin-top: 130px;
+        
+}
+
+#img2 {
+    background-image: url(./album/inverno2.png);
+    width: 270px;
+    top: -24px;
+    max-width: 270px;
+    max-height: 300px;
+}
+
+#img3 {
+    background-image: url(./album/inverno3.png);
+    width: 350px;
+    height: 350px;
+    margin-left: 30px;
+    max-width: 280px;
+    bottom: -9px;
+}
+
+#img4 {
+    background-image: url(./album/inverno4.png);
+    width: 340px;
+    height: 355px;
+    margin-left: 35px;
+    max-width: 280px;
+    margin-bottom: 10px;
+    top: 14px;
+}
+
+#img6 {
+    background-image: url(./album/linkedin.png);
+    width: 90px;
+    height: 100px;
+    bottom: -400px;
+    position: absolute;
+    left: 80px;
+}
+
+#img7 {
+    background-image: url(./album/instagram.png);
+    width: 90px;
+    height: 100px;
+    bottom: -389px;
+    position: absolute;
+    left: 130px;
+}
+
+#img8 {
+    background-image: url(./album/gitHub.png);
+    width: 108px;
+    height: 80px;
+    bottom: -363px;
+    position: absolute;
+    left: 180px;
+}
+
+#img9 {
+    background-image: url(./album/inverno6.png);
+    width: 63px;
+    height: 110px;
+    right: 150px;
+    bottom: -390px;
+    position: absolute;
+}
+
+footer {
+    background-color: #4B93BF;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    height: 150px;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 0;
+    color: #E4EEF1;
+    position: relative;
+    top: 20px;
+}
